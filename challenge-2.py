@@ -1,6 +1,8 @@
 import math
 
 
+# These are Solutions to challenge 2
+
 # Function to reverse a given string
 def reverse_str(string):
     # Convert the string to an array and get the length for tidiness
