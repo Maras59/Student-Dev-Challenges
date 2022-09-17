@@ -17,6 +17,7 @@ def reverse_str(string):
     return reverse.join(str_array)                  # the join function on an empty string and return
 
 
+# Calculates the factorial of a number recursively 
 # Factorial function: n * (n - 1) until n equals 1, if n is zero, we just return 1
 def factorial(x):
     if x == 1 or x == 0:             # Base case
@@ -25,6 +26,7 @@ def factorial(x):
         return x * factorial(x - 1)  # Recursive call
 
 
+# Function that calculates the nth number in the fibonacci sequence    
 # The recursive method of calculating the fibonacci sequence is incredibly costly so im using an array
 # we will not be including 0 in our sequence
 def fib(n):
@@ -37,6 +39,7 @@ def fib(n):
     return f[n]                         # there is no need to recalculate values like with the recursive method
 
 
+# Function that returns the greatest of 3 numbers
 # Run through each number and pick up the largest one as you go, returning at the end
 def greatest_of_three(x, y, z):
     greatest = x
